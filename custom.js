@@ -400,12 +400,10 @@ if ($('#post-4021').length) {
 	var titles = $('.position-title');
 	
 	descriptions.hide();
-	titles.bind('click', function() {
-		$(this).toggle(function() {
-			$(this).next().show();						   
-		}, function() {
-			$(this).next().hide();
-		});
+	titles.toggle(function() {
+		$(this).next().show();						   
+	}, function() {
+		$(this).next().hide();
 	});
 	
 }  
