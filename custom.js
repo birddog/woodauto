@@ -401,7 +401,7 @@ if ($('#post-4021').length) {
 	
 	descriptions.hide();
 	titles.bind('click', function() {
-		$(this).next().toggle(function() {
+		titles.next().toggle(function() {
 			$(this).show();						   
 		}, function() {
 			$(this).hide();
