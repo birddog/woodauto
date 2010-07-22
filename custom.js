@@ -390,6 +390,25 @@ jQuery(function($) {
     $('.bird_dog .detail .photos .photo').attr('rel','lightbox');
   }
   
+  
+/****************************/
+/* WAG CAREERS PAGE */
+/****************************/
+
+if ($('post-4021').length) {
+	var descriptions = $('.position-description');
+	var titles = $('.position-title');
+	
+	descriptions.hide();
+	titles.bind('click', function() {
+		$(this).next().toggle();
+	});
+	
+}  
+  
+  
+  
+  
 });
 
 /*
