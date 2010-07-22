@@ -954,9 +954,10 @@ div.p3 span{font-size:10px;}
 }
 .application-panel {
 	float:right;	
-	width:200px;
+	width:280px;
 }
 .application-panel .form-group {width:auto;}
+.application-panel .form-group label {width:80px;}
 
 /*************************************/
 /* Image Gallery
