@@ -395,7 +395,7 @@ jQuery(function($) {
 /* WAG CAREERS PAGE */
 /****************************/
 
-if ($('post-4021').length) {
+if ($('#post-4021').length) {
 	var descriptions = $('.position-description');
 	var titles = $('.position-title');
 	
