@@ -401,7 +401,11 @@ if ($('post-4021').length) {
 	
 	descriptions.hide();
 	titles.bind('click', function() {
-		$(this).next().toggle();
+		$(this).next().toggle(function() {
+			$(this).show();						   
+		}, function() {
+			$(this).hide();
+		});
 	});
 	
 }  
