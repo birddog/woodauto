@@ -955,6 +955,9 @@ div.p3 span{font-size:10px;}
 .application-panel {
 	float:right;	
 	width:280px;
+	background-color:#fff;
+	border:1px solid #eee;
+	margin:0 0 10px 10px;
 }
 .application-panel .form-group {width:auto;}
 .application-panel .form-group label {width:80px;}
