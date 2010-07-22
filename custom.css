@@ -954,6 +954,7 @@ div.p3 span{font-size:10px;}
 }
 .application-panel {
 	float:right;	
+	width:200px;
 }
 .application-panel .form-group {width:auto;}
 
