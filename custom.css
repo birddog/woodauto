@@ -952,6 +952,9 @@ div.p3 span{font-size:10px;}
 .position-description {
 	padding: 0 10px 10px;
 }
+.application-panel {
+	float:right;	
+}
 
 /*************************************/
 /* Image Gallery
