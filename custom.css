@@ -949,7 +949,9 @@ div.p3 span{font-size:10px;}
 	color:#fff;
 	padding-left:15px;
 }
-.position-description {}
+.position-description {
+	padding: 0 10px 10px;
+}
 
 /*************************************/
 /* Image Gallery
