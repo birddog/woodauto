@@ -401,10 +401,10 @@ if ($('#post-4021').length) {
 	
 	descriptions.hide();
 	titles.bind('click', function() {
-		titles.next().toggle(function() {
-			$(this).show();						   
+		$(this).toggle(function() {
+			$(this).next().show();						   
 		}, function() {
-			$(this).hide();
+			$(this).next().hide();
 		});
 	});
 	
