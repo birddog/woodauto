@@ -408,7 +408,58 @@ if ($('#post-4021').length) {
 	
 }  
   
-
+/****************************/
+/* WAG CONTACT PAGE  */
+/****************************/
+		var locations = [
+				['WoodridgeFord.com', '50.9515549', '-114.0026265', '4'],
+				['Villagehonda.com', '51.1264002', '-114.2091468', '4'],
+				['Big4Motors.com', '50.9878993', '-114.0714358', '4'],
+				['AdvantageFord.ca', '50.9377162', '-114.0688582', '4'],
+				['OkotoksFord.com', '50.7174759', '-113.9844036', '4']];		
+		
+		function initalize() {
+							
+			// Set up map and center on city
+			var map = new google.maps.Map(document.getElementById('map'), {
+			  zoom: 9,
+			  center: new google.maps.LatLng(51.040733, -114.079665),
+			  mapTypeId: google.maps.MapTypeId.ROADMAP
+			});
+			// Place markers on map
+			setMarkers(map, locations);
+		
+			function setMarkers(map, locations) {
+				// Create info window for location information
+				var infowindow = new google.maps.InfoWindow();
+				var marker, i;
+				var bounds = new google.maps.LatLngBounds();
+				
+				// loop through locations and place markers on locations
+				for (i = 0; i < locations.length; i++) {  
+					var lat = locations[i][1];
+					var lng = locations[i][2];
+					var latlng = new google.maps.LatLng(lat, lng);
+					bounds.extend(latlng);
+					
+					marker = new google.maps.Marker({
+						position: new google.maps.LatLng(lat, lng),
+						map: map
+					});
+					
+				
+					// Create listener for click event to open info window
+					google.maps.event.addListener(marker, 'click', (function(marker, i) {
+						return function() {
+						  infowindow.setContent(locations[i][0]);
+						  infowindow.open(map, marker);
+						}
+					})(marker, i));
+				}
+				map.fitBounds(bounds);
+			}
+		}
+		$(window).load(function() {initalize(); });
 });
 
 /*
