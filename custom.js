@@ -411,6 +411,8 @@ if ($('#post-4021').length) {
 /****************************/
 /* WAG CONTACT PAGE  */
 /****************************/
+googlemap();
+function googlemap() {
 		var locations = [
 				['WoodridgeFord.com', '50.9515549', '-114.0026265', '4'],
 				['Villagehonda.com', '51.1264002', '-114.2091468', '4'],
@@ -460,6 +462,7 @@ if ($('#post-4021').length) {
 			}
 		}
 		initalize();
+}
 });
 
 /*
