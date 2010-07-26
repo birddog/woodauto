@@ -459,7 +459,7 @@ if ($('#post-4021').length) {
 				map.fitBounds(bounds);
 			}
 		}
-		$(window).load(function() {initalize(); });
+		initalize();
 });
 
 /*
