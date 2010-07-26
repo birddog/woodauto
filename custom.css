@@ -694,9 +694,9 @@ body.page-id-206 #site-content > .grid_12 > #post-206{padding:0 0 0 10px;}
 .emailform .header{display:none!important;}
 .emailform form{border:none!important;background:white!important;}
 .emailform form table td{border:none!important;background:white!important;}
-#div_contact{background-color:#F4F4F4;border:1px solid #999;padding-left:25px;padding-top:15px;width:893px;}
-#div_contact select{font-size:11px;color:#999;}
-#div_contact select option{padding:2px;color:#999;border:none;}
+
+
+
 .white td{color:#ffffff;}
 .contactTitle td:first-child{color:#0e4a78;}
 td.emailRight{text-align:right !important;padding-right:5px;}
@@ -990,6 +990,13 @@ div.p3 span{font-size:10px;}
 /**********************************************/
 /* Gmap
 /**********************************************/
+	#div_contact{
+		background-color:#F4F4F4;
+		border:1px solid #999;
+		padding:1em 1.3em;
+		width:893px;
+	}
+	
 	.locations {font-size:11px;float:left;}
 	.locations ul {list-style:none;padding:0;margin:0;background:#fff; border:1px solid #eee;}
 	.locations ul li {padding:5px;margin:5px;background:#eee;border:1px solid #ccc;}
