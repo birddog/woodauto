@@ -420,11 +420,11 @@ if ($('#post-4021').length) {
 googlemap();
 function googlemap() {
 		var locations = [
-				['WoodridgeFord.com', '50.9515549', '-114.0026265', '4'],
-				['Villagehonda.com', '51.1264002', '-114.2091468', '4'],
-				['Big4Motors.com', '50.9878993', '-114.0714358', '4'],
-				['AdvantageFord.ca', '50.9377162', '-114.0688582', '4'],
-				['OkotoksFord.com', '50.7174759', '-113.9844036', '4']];		
+				['WoodridgeFord.com', '50.9515549', '-114.0026265', '4', '11580 24 Street SE, Calgary, Alberta T2Z 3K1'],
+				['Villagehonda.com', '51.1264002', '-114.2091468', '4', '155 Crowfoot Way, NW, Calgary, Alberta T3G 3P7'], 
+				['Big4Motors.com', '50.9878993', '-114.0714358', '4','7330 MacLeod Trail South, Calgary, Alberta T2H 0L9'],
+				['AdvantageFord.ca', '50.9377162', '-114.0688582', '4', '12800 MacLeod Trail SE, Calgary, Alberta T2J 7E5'],
+				['OkotoksFord.com', '50.7174759', '-113.9844036', '4', '4 Westland Road, Okotoks, Alberta T1S 1N1']];		
 		
 		function initalize() {
 							
@@ -459,7 +459,8 @@ function googlemap() {
 					// Create listener for click event to open info window
 					google.maps.event.addListener(marker, 'click', (function(marker, i) {
 						return function() {
-						  infowindow.setContent(locations[i][0]);
+							var content = '<h4>' + locations[i][0] + '</h4><p>' + locations[i][4] + '</p>';
+						  infowindow.setContent(content);
 						  infowindow.open(map, marker);
 						}
 					})(marker, i));
