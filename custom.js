@@ -463,14 +463,10 @@ function googlemap() {
 					// Create listener for click event to open info window
 					google.maps.event.addListener(marker, 'click', (function(marker, i) {
 						return function() {
-							var lat = locations[i][1];
-							var lng = locations[i][2];
-							var latlng = new google.maps.LatLng(lat, lng);
-							bounds.extend(latlng);		
 							
 							var content = '<h4>' + locations[i][0] + '</h4><p>' + locations[i][4] + '</p>';
-						  infowindow.setContent(content);
-						  infowindow.open(map, marker);
+							infowindow.setContent(content);
+							infowindow.open(map, marker);
 						}
 					})(marker, i));
 				}
