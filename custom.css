@@ -45,11 +45,8 @@ blockquote cite {display:block;text-align:right;}
 #header #logo{font-weight:bold;font-size:12px;padding:10px 0 0;}
 #header #logo img{vertical-align:middle;}
 #header #logo span{margin-top:10px;}
-#header #address{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers{color:#999;text-align:right;padding-top:5px;}
-#header #phone-numbers table{width:100%;}
-#header #phone-numbers table td{text-align:right;}
-#header #phone-numbers strong{font:bold 11pt;color:#0e4a78;}
+#header #dealerships {}
+#header #dealerships ul{margin:0;	padding:0;	list-style:none;}
 #site-content{margin:0;}
 body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 #home-1.widget-zones{margin:0;}
