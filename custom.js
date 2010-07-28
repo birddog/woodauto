@@ -430,9 +430,14 @@ function googlemap() {
 							
 			// Set up map and center on city
 			var map = new google.maps.Map(document.getElementById('map'), {
-			  zoom: 9,
-			  center: new google.maps.LatLng(51.040733, -114.079665),
-			  mapTypeId: google.maps.MapTypeId.ROADMAP
+				zoom: 9,
+				center: new google.maps.LatLng(51.040733, -114.079665),
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				mapTypeControlOptions: {  
+					style: google.maps.MapTypeControlStyle.DROPDOWN_MENU  
+				}  ,
+				scaleControl: false
+			  
 			});
 			// Place markers on map
 			setMarkers(map, locations);
