@@ -100,6 +100,12 @@ jQuery(function($) {
 		$('body').addClass('heatmap'); 
 	}
 
+	/* Menubar Sub-text */
+	$('#menubar .nav ul li a').each(function(){
+		subtext = $(this).attr('title');
+		$(this).attr('title','').append('<div class="subtext">'+subtext+'</div>');
+	})
+	
   /* Inventory Search */
   $("#quick-find #inventory-search").focus(function(){
     if ($(this).attr('value') == 'Inventory Search...') {
