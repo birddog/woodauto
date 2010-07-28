@@ -44,9 +44,10 @@ blockquote cite {display:block;text-align:right;}
 #header a:hover{text-decoration:none!important;}
 #header #logo{font-weight:bold;font-size:12px;padding:10px 0 0;}
 #header #logo img{vertical-align:middle;}
-#header #logo p {margin:13px 0 0;width:253px; text-align:right;}
+#header #logo p {margin:13px 0 0;}
 #header #logo span{margin-top:10px;font-weight:bold;font-size:12px;padding:10px 0 0;}
 #header #dealerships {}
+#header #dealerships p {width:253px; text-align:right;}
 #header #dealerships ul{margin:0;	padding:0;	list-style:none;}
 #header #mega-lot {text-align:right;}
 #site-content{margin:0;}
