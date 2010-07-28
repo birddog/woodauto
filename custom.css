@@ -88,6 +88,7 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 	width:116px;
 	background-image:url('/wp-content/uploads/menubar-nav-bg.png');
 	background-position:right top;
+	padding:6px 0 0 14px;
 	
 }
 #menubar .nav li.last{
