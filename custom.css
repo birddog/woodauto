@@ -76,15 +76,16 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 	font-size:12px; 
 	text-transform:uppercase;
 }
-#menubar .nav li.page-item-149 a{background-position:left 0;width:137px;padding-left:11px;}
-#menubar .nav li.page-item-4043 a{background-position:-182px 0;width:137px;}
-#menubar .nav li.page-item-3788 a{background-position:-182px 0;width:137px;}
-#menubar .nav li.page-item-3791 a{background-position:-182px 0;width:137px;}
-#menubar .nav li.page-item-3793 a{background-position:-182px 0;width:137px;}
-#menubar .nav li.page-item-3797 a{background-position:-182px 0;width:137px;}
+#menubar .nav li.page-item-149 a{background-position:left 0;width:120px;padding-left:11px;}
+#menubar .nav li.page-item-4043 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-3788 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-3791 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-3793 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-3797 a{background-position:-182px 0;width:120px;}
+#menubar .nav li.page-item-4081 a{background-position:-182px 0;width:120px;}
 #menubar .nav li.page-item-165 a{
 	background-position:-76px 0;
-	width:137px;
+	width:120px;
 	background-image:url('/wp-content/uploads/menubar-nav-bg.png');
 	background-position:right top;
 	
