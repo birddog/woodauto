@@ -459,7 +459,9 @@ function googlemap() {
 						position: new google.maps.LatLng(lat, lng),
 						map: map
 					});
-					
+					google.maps.event.addDomListener(document.getElementById("linkID"), "click", function(ev) {
+						map.setCenter(marker.getPosition());
+					});	
 				
 					// Create listener for click event to open info window
 					google.maps.event.addListener(marker, 'click', (function(marker, i) {
