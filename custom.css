@@ -47,6 +47,7 @@ blockquote cite {display:block;text-align:right;}
 #header #logo span{margin-top:10px;font-weight:bold;font-size:12px;padding:10px 0 0;}
 #header #dealerships {}
 #header #dealerships ul{margin:0;	padding:0;	list-style:none;}
+#header #mega-lot {text-align:right;}
 #site-content{margin:0;}
 body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 #home-1.widget-zones{margin:0;}
