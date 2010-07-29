@@ -424,8 +424,8 @@ if ($('#post-4021').length) {
 				['Big4Motors.com', '50.9878993', '-114.0714358', '4','7330 MacLeod Trail South, Calgary, Alberta T2H 0L9'],
 				['AdvantageFord.ca', '50.9377162', '-114.0688582', '4', '12800 MacLeod Trail SE, Calgary, Alberta T2J 7E5'],
 				['OkotoksFord.com', '50.7174759', '-113.9844036', '4', '4 Westland Road, Okotoks, Alberta T1S 1N1'],
-				['All Makes Collision', '50.956514', '-113.968537', '10860 46 Street SE Calgary, Alberta'],
-				['Wood Chip Auto / All Makes Glass', '51.006111', '-114.055937', '430 53rd Ave SE Calgary, Alberta']];		
+				['All Makes Collision', '50.956514', '-113.968537', '4','10860 46 Street SE Calgary, Alberta'],
+				['Wood Chip Auto / All Makes Glass', '51.006111', '-114.055937','4', '430 53rd Ave SE Calgary, Alberta']];		
 			
 		function initalize() {
 							
