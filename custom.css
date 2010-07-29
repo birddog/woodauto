@@ -839,13 +839,14 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 		border:1px solid #999;
 		padding:1em 1.3em;
 	}
-	.gmap {font-size:11px;float:left;list-style:none;padding:0;margin:0;background:#fff; border:1px solid #eee;width:60%;}
-	.contactform {float:left;}
+	.mapnform {float:right;}
+	.gmap {font-size:11px;list-style:none;padding:0;margin:0; border:1px solid #eee;width:60%;}
+	.contactform {}
 
 	.gmap > div{width:150px;height:90px;padding:5px;margin:5px;background:#eee;border:1px solid #ccc;float:left;}
 	.gmap > div h4{margin:0 0 5px;}
 	.gmap p {margin:0 0 5px;}
-	#map {float:right;border:1px solid #eee;width: 320px; height: 315px;}
+	#map {border:1px solid #eee;width: 320px; height: 315px;}
 /**********************************************/
 /* Lightbox
 /**********************************************/
