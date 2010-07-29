@@ -968,13 +968,15 @@ div.p3 span{font-size:10px;}
 .pika_navigation a:hover{text-decoration:underline;}
 .pika_navigation{padding-top:10px;clear:both;text-align:center;}
 /**********************************************/
-/* Gmap
+/* Gmap / contact page
 /**********************************************/
 	#div_contact{
 		background-color:#F4F4F4;
 		border:1px solid #999;
 		padding:1em 1.3em;
 	}
+	.gmap {float:left;}
+	.contactform {float:left;}
 	
 	.locations {font-size:11px;float:left;}
 	.locations ul {list-style:none;padding:0;margin:0;background:#fff; border:1px solid #eee;}
