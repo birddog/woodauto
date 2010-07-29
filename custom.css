@@ -473,11 +473,10 @@ td .form {padding: 0 10px 10px;}
 
 .form select {width:143px;}
 .form  input, select {font-size:11px;vertical-align:middle;}
+/* textarea widths */
 .contactusSmall textarea {width:300px;}
-.preownedtestdrive textarea, .newtestdrive textarea,
-.contactus textarea, . {width:600px;}
-.partsRequest textarea, .contactFinance textarea, .contactFleet textarea { width:705px;}
-.collisionCenter textarea {360px;}
+.contactus textarea{width:600px;}
+.jobInquiry texarea {width:300px;}
 
 /* form validation */
 span.wpcf7-not-valid-tip {
