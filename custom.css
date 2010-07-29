@@ -844,6 +844,22 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 		
 }
 /*************************************/
+/* Credit applications
+/*************************************/
+#post-177 .dealerships {
+	padding:20px 0 0 60px;	
+}
+#post-177 .dealership {
+	display:inline-block;
+	width:300px;
+	height:135px;
+}
+#post-177 .dealership img {
+	margin:0 15px 15px 0;
+}
+#post-177 .dealership h2 {}
+
+/*************************************/
 /* Image Gallery
 /*************************************/
 .pikachoose{width:780px;margin:0 auto 25px auto;}
