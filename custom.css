@@ -840,9 +840,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	float:left;
 	list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important;	
 }
-#post-4038 .dealership ul li{
-		
-}
+#post-4038 .dealership ul li{}
 /*************************************/
 /* Credit applications
 /*************************************/
@@ -854,6 +852,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	width:185px;
 	height:135px;
 	text-align:center;
+	padding:0 0 10px;
 }
 #post-177 .dealership img {}
 #post-177 .dealership h2 {font-size:12px; font-weight:bold;color:#777777;}
