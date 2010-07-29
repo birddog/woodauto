@@ -1,8 +1,6 @@
 /******************************************/
 /*		IE fixes for forms								 */
 /******************************************/
-fieldset{position:relative!important;padding:35px 10px 10px!important;background-color:#f4f4f4!important;}
-fieldset legend {position:absolute; top:-1px;border-top:1px solid #ddd!important;}
 
 .preownedtestdrive .txt-area, 
 .newtestdrive .txt-area,
