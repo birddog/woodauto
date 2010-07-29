@@ -25,5 +25,5 @@ select {width:150px!important;margin-right:12px!important;}
 	border:1px solid #ddd;
 }
 
-.jobInquiry select {width:150px!important;margin-right:12px!important;}
+.jobInquiry select {width:auto;margin-right:auto;}
 .jobInquiry textarea {width:90%;}
