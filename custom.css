@@ -843,8 +843,8 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	.gmap {float:left;font-size:11px;list-style:none;padding:0;margin:0; border:1px solid #eee;}
 	.contactform {float:left;}
 
-	.gmap > div{width:150px;height:90px;padding:5px;margin:5px;background:#eee;border:1px solid #ccc;}
-	.gmap > div h4{margin:0 0 5px;}
+	.gmap .location{width:150px;height:90px;padding:5px;margin:5px;background:#eee;border:1px solid #ccc;}
+	.gmap .location h4{margin:0 0 5px;}
 	.gmap p {margin:0 0 5px;}
 	#map {border:1px solid #eee;width: 320px; height: 315px;}
 /**********************************************/
