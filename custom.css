@@ -822,7 +822,8 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	background:url(/wp-content/uploads/wag-woodridgefadetowhite.png) no-repeat right bottom #ffffff;
 }
 #post-4038 .dealership {
-	display:inline;
+	display:inline-block;
+	width:300px;
 }
 #post-4038 .dealership img {
 	float:left;
