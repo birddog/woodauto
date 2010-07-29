@@ -824,12 +824,14 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 #post-4038 .dealership {
 	display:inline-block;
 	width:400px;
+	height:135px;
 }
 #post-4038 .dealership img {
 	float:left;
 	margin:0 15px 0 0;
 }
 #post-4038 .dealership ul{
+	padding-left:20px;
 	list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important;	
 }
 #post-4038 .dealership ul li{
