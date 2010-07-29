@@ -815,7 +815,24 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 }
 .application-panel .form-group {width:auto;}
 .application-panel .form-group label {width:80px;}
-
+/*************************************/
+/* Dealership page
+/*************************************/
+.page-id-4038 {
+	background:url(/wp-content/uploads/wag-woodridgefadetowhite.png) no-repeat right bottom #ffffff;
+}
+#post-4038 .dealership {
+	display:inline;
+}
+#post-4038 .dealership img {
+	float:left;
+}
+#post-4038 .dealership ul{
+	list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important;	
+}
+#post-4038 .dealership ul li{
+		
+}
 /*************************************/
 /* Image Gallery
 /*************************************/
