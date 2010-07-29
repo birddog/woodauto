@@ -840,7 +840,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 		padding:1em 1.3em;
 	}
 	.mapnform {float:right;}
-	.gmap {font-size:11px;list-style:none;padding:0;margin:0; border:1px solid #eee;width:60%;}
+	.gmap {font-size:11px;list-style:none;padding:0;margin:0; border:1px solid #eee;}
 	.contactform {}
 
 	.gmap > div{width:150px;height:90px;padding:5px;margin:5px;background:#eee;border:1px solid #ccc;float:left;}
