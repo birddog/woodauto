@@ -978,12 +978,11 @@ div.p3 span{font-size:10px;}
 	.gmap {float:left; margin:0 20px 0 0;}
 	.contactform {float:left;}
 	
-	.locations {font-size:11px;float:left;}
-	.locations ul {list-style:none;padding:0;margin:0;background:#fff; border:1px solid #eee;}
-	.locations ul li {padding:5px;margin:5px;background:#eee;border:1px solid #ccc;}
-	.locations h4{margin:0 0 5px;}
-	.locations p {margin:0 0 5px;}
-	#map {float:left;border:1px solid #eee;width: 320px; height: 320px;}
+	.gmap {font-size:11px;float:left;list-style:none;padding:0;margin:0;background:#fff; border:1px solid #eee;}
+	.gmap div{padding:5px;margin:5px;background:#eee;border:1px solid #ccc;}
+	.gmap div h4{margin:0 0 5px;}
+	.gmap p {margin:0 0 5px;}
+	#map {float:right;border:1px solid #eee;width: 320px; height: 320px;}
 /**********************************************/
 /* Lightbox
 /**********************************************/
