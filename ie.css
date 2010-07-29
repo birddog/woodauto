@@ -10,7 +10,6 @@
 
 .form-group {width:auto!important;}
 select {width:150px!important;margin-right:12px!important;}
-.jobInquiry select {width:150px!important;margin-right:12px!important;}
 
 #tradeEstimate .next, #tradeEstimate .prev {background-color:#555;color:#fff;}
 #step-5 .form-group {width:350px;}
@@ -25,3 +24,6 @@ select {width:150px!important;margin-right:12px!important;}
 	margin-top:5px;
 	border:1px solid #ddd;
 }
+
+.jobInquiry select {width:150px!important;margin-right:12px!important;}
+.jobInquiry textarea {width:90%;}
