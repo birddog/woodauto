@@ -823,10 +823,11 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 }
 #post-4038 .dealership {
 	display:inline-block;
-	width:300px;
+	width:400px;
 }
 #post-4038 .dealership img {
 	float:left;
+	margin:0 15px 0 0;
 }
 #post-4038 .dealership ul{
 	list-style-image:url(/wp-content/uploads/quick-find-bullet.png)!important;	
