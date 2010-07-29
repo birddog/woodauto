@@ -844,7 +844,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	.mapnform {float:right;width:700px;margin:10px 0 0;}
 	.contactform {float:left;}
 
-	.gmap .location{width:150px;height:90px;padding:5px;margin:5px 5px 10px; display:inline-block;background:#eee;border:1px solid #ccc;}
+	.gmap .location{width:150px;height:90px;padding:5px;margin:5px; display:inline-block;background:#eee;border:1px solid #ccc;}
 	.gmap .location h4{margin:0 0 5px;}
 	.gmap p {margin:0 0 5px;}
 	#map {float:left;margin:0 10px 0 0;border:1px solid #eee;width: 320px; height: 315px;}
