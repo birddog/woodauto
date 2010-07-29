@@ -855,7 +855,8 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	height:135px;
 }
 #post-177 .dealership img {}
-#post-177 .dealership h2 {}
+#post-177 .dealership h2 {font-size:12px; font-weight:bold;color:#777777;}
+#post-177 .dealership p {color:#777777;margin:0;}
 
 /*************************************/
 /* Image Gallery
