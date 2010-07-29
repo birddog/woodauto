@@ -417,8 +417,11 @@ if ($('#post-4021').length) {
 /****************************/
 /* WAG CONTACT PAGE  */
 /****************************/
+if ($('#post-45').length){
+	
 googlemap();
-function googlemap() {
+
+	function googlemap() {
 		var locations = [
 				['WoodridgeFord.com', '50.9515549', '-114.0026265', '4', '11580 24 Street SE, Calgary, Alberta T2Z 3K1'],
 				['Villagehonda.com', '51.1264002', '-114.2091468', '4', '155 Crowfoot Way, NW, Calgary, Alberta T3G 3P7'], 
@@ -474,6 +477,7 @@ function googlemap() {
 			}
 		}
 		initalize();
+	}
 }
 });
 
