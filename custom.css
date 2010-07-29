@@ -521,6 +521,7 @@ div.wpcf7-validation-errors {
 img.ajax-loader {
 	border: none;
 	vertical-align: middle;
+	display:none;
 }
 
 /* trade in */
