@@ -975,7 +975,7 @@ div.p3 span{font-size:10px;}
 		border:1px solid #999;
 		padding:1em 1.3em;
 	}
-	.gmap {float:left;}
+	.gmap {float:left; margin:0 20px 0 0;}
 	.contactform {float:left;}
 	
 	.locations {font-size:11px;float:left;}
