@@ -818,7 +818,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 /*************************************/
 /* Dealership page
 /*************************************/
-.page-id-4038 {
+.page-id-4038 #site-content > .grid_12 {
 	background:url(/wp-content/uploads/wag-woodridgefadetowhite.png) no-repeat right bottom #ffffff;
 }
 #post-4038 .dealership {
