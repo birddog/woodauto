@@ -765,8 +765,7 @@ body.page-id-43 .dt-showcase .detail .tabs{left:-1px;}
 	background-repeat: no-repeat !important;
 	background-position: right top !important;
 }
-.listings .search a.go-button:hover {}
-.listings .search .go-button {
+.listings .search .go-button, .listings .search a.go-button:hover  {
 	background-image:url(/wp-content/uploads/GoButton.png);
 	background-color:#0E4976;
 	border:none;
