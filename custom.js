@@ -113,10 +113,6 @@ jQuery(function($) {
     }
   });
 
-	if($("#menubar .nav ul").length){
-	 $("#menubar .nav ul").append("<li class='last'></li>");
-	}
-
   /* Quick Find bar links */
   $('#quick-find .jump-to-tab').click(function(){
     if ($('#slideout').css('display') != 'block') $('#quick-find-button').click();
