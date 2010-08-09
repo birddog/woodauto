@@ -34,6 +34,11 @@ blockquote {
 	background:url(/wp-content/uploads/openquote.png) no-repeat 0 10px #fff;
 }
 blockquote cite {display:block;text-align:right;}
+
+/* img loader icon for slow loading images */
+img,
+.slideshowwidget {background:url(/wp-content/uploads/ajax-loader1.gif) no-repeat scroll 50% 50% #ffffff!important;}
+
 /**************************************
 * General Layout Regions
 **************************************/
