@@ -76,7 +76,7 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 #menubar .nav li{}
 #menubar .nav li a{
 	display:block;
-	background-image:url(/wp-content/uploads/menubar-nav-bg.png);
+	background-image:url(/wp-content/uploads/menubar-nav-bg.png)!important;
 	padding:6px 0 0 7px;
 	height:28px;
 	font-size:12px; 
