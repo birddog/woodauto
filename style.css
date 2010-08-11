@@ -46,7 +46,7 @@ body{font:normal 11px helvetica; padding:0; margin:0 auto;}
 .nav li li a,
 .nav li li a:visited,
 .nav li li a:hover,
-.nav li li a:active{color:white;display:block;text-decoration:none;float:left;margin:10px 4px 0;position:relative;}
+.nav li li a:active{color:white;display:block;text-decoration:none;float:left;position:relative;}
 /*Menu Highlight*/
 .nav li a:hover{color:black;}
 /*Menu Dropdown Position*/
