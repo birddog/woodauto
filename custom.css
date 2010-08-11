@@ -78,6 +78,7 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 	display:block;
 	background-image:url(/wp-content/uploads/menubar-nav-bg.png)!important;
 	padding:6px 0 0 7px;
+	margin:0;
 	height:28px;
 	text-transform:uppercase;
 }
