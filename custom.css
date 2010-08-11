@@ -79,7 +79,6 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 	background-image:url(/wp-content/uploads/menubar-nav-bg.png)!important;
 	padding:6px 0 0 7px;
 	height:28px;
-	font-size:12px; 
 	text-transform:uppercase;
 }
 #menubar .nav li.page-item-149 a{background-position:left 0;width:64px;padding-left:11px;}
@@ -94,20 +93,12 @@ body.page-parent #home-content{position:relative;top:-15px;z-index:30;}
 	background-position:right top;
 	padding:6px 0 0 14px;
 }
-#menubar .nav div.subtext {
-	font-size:8px;
-	margin-left: 0;
-	overflow:hidden;
-	position:relative;
-	width:100px;
-}
-/* menubar overrides */
-#menubar .nav ul li a{font:inherit;}
-.nav li a,
-.nav li a:visited .nav li li a,
-.nav li li a:visited,
-.nav li li a:hover,
-.nav li li a:active{margin:0;position:inherit;float:none;}
+#nav > li > a,
+#nav > li > a:visited,
+#nav > li > li a:visited,
+#nav > li > li a:hover,
+#nav > li > li a:active{margin:0;position:inherit;float:none;}
+#nav > li a .subtext {text-transform:uppercase;font-size:8pt;}
 
 /**************************************
 * Footer
